@@ -1,0 +1,29 @@
+.candycrush{
+    display: grid;
+    grid-template-columns: 1em 1fr;
+    /* grid-template-columns: max-content; */
+    grid-template-areas: 'scoreboard grid1';
+    
+}
+.grid{
+    width: 560px;
+    height: 560px;
+    background-color: rgb(233, 165, 218);
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    grid-area: grid1;
+   
+}
+
+.grid div{
+    height: 70px;
+    width: 70px;
+}
+.scorebord{
+    grid-area: scoreboard;
+    width: 150px;
+    height: 150px;
+    align-items: center;
+   margin: 300px;
+}
